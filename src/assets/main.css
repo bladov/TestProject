@@ -1,0 +1,26 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(45deg, rgb(4, 57, 110), rgb(67, 150, 233));
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}

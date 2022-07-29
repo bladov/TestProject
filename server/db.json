@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "title": "Java",
+      "author": "jara"
+    },
+    {
+      "title": "Pyrhon",
+      "author": "fdf",
+      "id": 5
+    },
+    {
+      "title": "VUE",
+      "author": "evan you",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "Name": "Vasya",
+      "msg": "ia vasya",
+      "id": 1
+    },
+    {
+      "Name": "Danya",
+      "msg": "hi d",
+      "admin": false,
+      "id": 2
+    },
+    {
+      "isAdmin": true,
+      "id": 3
+    }
+  ]
+}
